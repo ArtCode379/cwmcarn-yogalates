@@ -16,8 +16,8 @@ class CWMYLAppViewModel(
 
     val userNameState: StateFlow<String> =
         userRepository.observeUserName()
-            .map { it ?: "Гость" }
-            .stateIn(viewModelScope, SharingStarted.WhileSubscribed(5_000), "Гость")
+            .map { it ?: "Guest" }
+            .stateIn(viewModelScope, SharingStarted.WhileSubscribed(5_000), "Guest")
 
     val isDarkTheme: StateFlow<Boolean> =
         themeManager.observeDarkTheme()

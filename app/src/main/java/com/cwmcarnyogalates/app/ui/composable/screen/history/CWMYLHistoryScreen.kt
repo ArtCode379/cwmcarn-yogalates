@@ -102,7 +102,7 @@ private fun WorkoutHistoryItem(
                     color = MaterialTheme.colorScheme.primary,
                 )
                 Text(
-                    text = "${workout.date.format(fmt)} · ${workout.durationMinutes} мин",
+                    text = "${workout.date.format(fmt)} · ${workout.durationMinutes}" min",
                     style = MaterialTheme.typography.bodyLarge,
                     color = MaterialTheme.colorScheme.onSurface,
                 )

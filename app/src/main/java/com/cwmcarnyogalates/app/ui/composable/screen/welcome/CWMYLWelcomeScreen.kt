@@ -48,24 +48,24 @@ private data class YogaArticle(val title: String, val description: String)
 
 private val yogaArticles = listOf(
     YogaArticle(
-        "Польза хатха-йоги",
-        "Хатха-йога — это классическая система йоги, сочетающая асаны, пранаяму и медитацию. Регулярные занятия улучшают гибкость, силу и общее самочувствие."
+        "Benefits of Hatha Yoga",
+        "Hatha yoga is a classical yoga system combining asanas, pranayama, and meditation. Regular practice improves flexibility, strength, and overall well-being."
     ),
     YogaArticle(
-        "Виньяса: йога в движении",
-        "Виньяса-йога объединяет дыхание и плавное движение между позами. Этот динамичный стиль помогает развить координацию и концентрацию."
+        "Vinyasa: Yoga in Motion",
+        "Vinyasa yoga links breath with fluid movement between poses. This dynamic style helps develop coordination, focus, and body awareness."
     ),
     YogaArticle(
-        "Медитация и осознанность",
-        "Ежедневная медитация даже по 10 минут снижает уровень стресса, улучшает качество сна и повышает эмоциональный интеллект."
+        "Meditation and Mindfulness",
+        "Even 10 minutes of daily meditation reduces stress levels, improves sleep quality, and boosts emotional intelligence."
     ),
     YogaArticle(
-        "Инь-йога для восстановления",
-        "Инь-йога предполагает длительное удержание пассивных поз. Это глубоко расслабляет соединительные ткани и суставы, идеально для восстановления."
+        "Yin Yoga for Recovery",
+        "Yin yoga involves holding passive poses for extended periods. It deeply relaxes connective tissues and joints — ideal for recovery and restoration."
     ),
     YogaArticle(
-        "Дыхание пранаяма",
-        "Техники дыхания пранаямы — мощный инструмент управления энергией и стрессом. Практика нади-шодхана уравновешивает нервную систему."
+        "Pranayama Breathing",
+        "Pranayama breathing techniques are a powerful tool for managing energy and stress. Nadi shodhana practice balances the nervous system."
     ),
 )
 
