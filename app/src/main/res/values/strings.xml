@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Sport Tracker Skeleton</string>
+
+    <string name="workout_screen_title">Workout</string>
+    <string name="workout_details_screen_title">Workout Details</string>
+    <string name="history_screen_title">History</string>
+    <string name="statistics_screen_title">Statistics</string>
+    <string name="settings_screen_title">Settings</string>
+    <string name="sign_up_screen_title">Sign Up</string>
+    <string name="user_profile_screen_title">Profile</string>
+
+    <string name="bottom_bar_nav_item_workout_title">Workout</string>
+    <string name="bottom_bar_nav_item_history_title">History</string>
+    <string name="bottom_bar_nav_item_statistics_title">Statistics</string>
+    <string name="bottom_bar_nav_item_settings_title">Settings</string>
+
+    <string name="welcome_page1_title">Welcome to SportTracker</string>
+    <string name="welcome_page1_text">Your personal sport activity assistant.</string>
+    <string name="welcome_page2_title">Track Your Progress</string>
+    <string name="welcome_page2_text">Log your workouts and see your statistics grow.</string>
+    <string name="welcome_page3_title">Achieve Your Goals</string>
+    <string name="welcome_page3_text">Stay healthy and fit with our personalized tips.</string>
+
+    <string name="user_text_field_name">Name</string>
+    <string name="user_text_field_height">Height (cm)</string>
+    <string name="user_text_field_weight">Weight (kg)</string>
+    <string name="user_text_field_age">Age</string>
+    <string name="user_text_field_goal_workout">Target Workouts/Week</string>
+
+    <string name="no_workouts_info">No Workouts Information</string>
+    <string name="no_statistics_info">No Statistics Info</string>
+    <string name="no_workouts_for_day_info">No Workouts For This Day</string>
+    <string name="no_exercises_info">No Exercises Info</string>
+
+    <string name="sign_up_screen_subtitle">Lets get to know you better to personalize your experience.</string>
+
+    <string name="button_sign_up_text">Sign Up</string>
+    <string name="button_update_text">Save Changes</string>
+    <string name="button_reset_progress_text">Reset Progress</string>
+</resources>
