@@ -19,6 +19,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Sport Tracker Skeleton"
+rootProject.name = "CWMCARN Yogalates"
 include(":app")
  

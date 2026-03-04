@@ -1,40 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Sport Tracker Skeleton</string>
+    <string name="app_name">CWMCARN Yogalates</string>
+    <string name="welcome_tagline">Ваш путь к гармонии и здоровью</string>
+    <string name="signup_subtitle">Начните свою практику йоги сегодня</string>
 
-    <string name="workout_screen_title">Workout</string>
-    <string name="workout_details_screen_title">Workout Details</string>
-    <string name="history_screen_title">History</string>
-    <string name="statistics_screen_title">Statistics</string>
-    <string name="settings_screen_title">Settings</string>
-    <string name="sign_up_screen_title">Sign Up</string>
-    <string name="user_profile_screen_title">Profile</string>
+    <!-- Navigation -->
+    <string name="nav_home">Главная</string>
+    <string name="nav_workout">Тренировка</string>
+    <string name="nav_history">История</string>
+    <string name="nav_statistics">Статистика</string>
+    <string name="nav_settings">Настройки</string>
+    <string name="nav_profile">Профиль</string>
 
-    <string name="bottom_bar_nav_item_workout_title">Workout</string>
-    <string name="bottom_bar_nav_item_history_title">History</string>
-    <string name="bottom_bar_nav_item_statistics_title">Statistics</string>
-    <string name="bottom_bar_nav_item_settings_title">Settings</string>
+    <!-- Screen titles -->
+    <string name="screen_home">Главная</string>
+    <string name="screen_add_workout">Добавить тренировку</string>
+    <string name="screen_history">История тренировок</string>
+    <string name="screen_statistics">Статистика</string>
+    <string name="screen_settings">Настройки</string>
+    <string name="screen_profile">Мой профиль</string>
 
-    <string name="welcome_page1_title">Welcome to SportTracker</string>
-    <string name="welcome_page1_text">Your personal sport activity assistant.</string>
-    <string name="welcome_page2_title">Track Your Progress</string>
-    <string name="welcome_page2_text">Log your workouts and see your statistics grow.</string>
-    <string name="welcome_page3_title">Achieve Your Goals</string>
-    <string name="welcome_page3_text">Stay healthy and fit with our personalized tips.</string>
+    <!-- Workout types -->
+    <string name="workout_type_hatha">Хатха-йога</string>
+    <string name="workout_type_vinyasa">Виньяса</string>
+    <string name="workout_type_ashtanga">Аштанга</string>
+    <string name="workout_type_kundalini">Кундалини</string>
+    <string name="workout_type_iyengar">Айенгар</string>
+    <string name="workout_type_yin_yoga">Инь-йога</string>
+    <string name="workout_type_restorative">Восстановительная</string>
+    <string name="workout_type_power_yoga">Силовая йога</string>
 
-    <string name="user_text_field_name">Name</string>
-    <string name="user_text_field_height">Height (cm)</string>
-    <string name="user_text_field_weight">Weight (kg)</string>
-    <string name="user_text_field_age">Age</string>
-    <string name="user_text_field_goal_workout">Target Workouts/Week</string>
+    <!-- Labels -->
+    <string name="label_name">Имя</string>
+    <string name="label_email">Email</string>
+    <string name="label_date">Дата</string>
+    <string name="label_time">Время</string>
+    <string name="label_duration">Продолжительность</string>
+    <string name="label_minutes">мин</string>
+    <string name="label_notes">Заметки (необязательно)</string>
+    <string name="label_yoga_type">Вид йоги</string>
+    <string name="label_instructor">Инструктор</string>
+    <string name="label_time_filter">Период</string>
+    <string name="label_type_filter">Тип йоги</string>
 
-    <string name="no_workouts_info">No Workouts Information</string>
-    <string name="no_statistics_info">No Statistics Info</string>
-    <string name="no_workouts_for_day_info">No Workouts For This Day</string>
-    <string name="no_exercises_info">No Exercises Info</string>
+    <!-- Buttons -->
+    <string name="btn_get_started">Начать практику</string>
+    <string name="btn_book_session">Записаться на занятие</string>
+    <string name="btn_save">Сохранить</string>
+    <string name="btn_save_changes">Сохранить изменения</string>
+    <string name="btn_confirm">Подтвердить запись</string>
+    <string name="btn_cancel">Отмена</string>
+    <string name="btn_ok">ОК</string>
+    <string name="btn_delete">Удалить</string>
 
-    <string name="sign_up_screen_subtitle">Lets get to know you better to personalize your experience.</string>
+    <!-- Errors -->
+    <string name="error_name_required">Введите ваше имя</string>
 
-    <string name="button_sign_up_text">Sign Up</string>
-    <string name="button_update_text">Save Changes</string>
-    <string name="button_reset_progress_text">Reset Progress</string>
+    <!-- Stats -->
+    <string name="stats_this_week">Занятий на этой неделе</string>
+    <string name="stats_sessions">занятий</string>
+    <string name="stats_total_workouts">Всего</string>
+    <string name="stats_total_minutes">Минут</string>
+    <string name="stats_streak">Streak</string>
+    <string name="stats_by_type">Распределение по типам</string>
+
+    <!-- Sections -->
+    <string name="section_articles">Йога: советы и статьи</string>
+    <string name="section_upcoming_sessions">Ближайшие занятия</string>
+    <string name="section_edit_profile">Редактировать профиль</string>
+
+    <!-- Dialogs -->
+    <string name="dialog_book_session">Запись на занятие</string>
+
+    <!-- Empty states -->
+    <string name="no_upcoming_sessions">Нет запланированных занятий</string>
+    <string name="no_workouts_yet">Пока нет записанных тренировок</string>
+
+    <!-- Filters -->
+    <string name="filter_all">Все</string>
+    <string name="filter_week">Неделя</string>
+    <string name="filter_month">Месяц</string>
+
+    <!-- Settings -->
+    <string name="settings_company">Компания</string>
+    <string name="settings_version">Версия приложения</string>
+    <string name="settings_dark_theme">Тёмная тема</string>
+    <string name="settings_support">Поддержка</string>
+
+    <!-- Snackbar -->
+    <string name="workout_saved">Тренировка сохранена!</string>
 </resources>

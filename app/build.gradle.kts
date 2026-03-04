@@ -7,13 +7,13 @@ plugins {
 }
 
 android {
-    namespace = "app.skeleton.sporttrackerskeleton"
+    namespace = "com.cwmcarnyogalates.app"
     compileSdk {
         version = release(36)
     }
 
     defaultConfig {
-        applicationId = "app.skeleton.sporttrackerskeleton"
+        applicationId = "com.cwmcarnyogalates.app"
         minSdk = 29
         targetSdk = 36
         versionCode = 1
@@ -40,6 +40,7 @@ android {
     }
     buildFeatures {
         compose = true
+        buildConfig = true
     }
 }
 
